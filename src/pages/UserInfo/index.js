@@ -16,8 +16,8 @@ const UserInfo = () => {
       <h1 className="h1 text-center mb-4">Get a Quote</h1>
 
       <MDBContainer>
-        <MDBRow>
-          <MDBCol md="6" style={{ margin: "0 auto" }}>
+        <MDBRow className="FormBox">
+          <MDBCol md="12" style={{ margin: "0 auto" }}>
             <form
               name="basic"
               labelCol={{
